@@ -1,0 +1,36 @@
+09:23:23:threadResetTaktTime(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.threadResetTaktTime() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 706
+09:27:15:threadChangeBackgroundColor(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.threadChangeBackgroundColor() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 464
+09:27:15:writePLC(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at Microsoft.Win32.UnsafeNativeMethods.ClearCommError(SafeFileHandle hFile, Int32& lpErrors, COMSTAT& lpStat)
+   at System.IO.Ports.SerialStream.get_BytesToRead()
+   at System.IO.Ports.SerialPort.get_BytesToRead()
+   at InControls.SerialDevice.SerialPortSync.Read(Byte[] buffer, Int32 offset, Int32 count) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\PLC\SerialDevice\SerialPortSync.cs:line 210
+   at BMS.FxSerialDeamon.Send(Int16 channelNo, Byte[] dataBuff, Int32 dataSize, ICellDataType responseDataType) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\FxSerialDeamon.cs:line 148
+   at BMS.FxSerialDeamon.Send(Int16 channelNo, Byte[] dataBuff, Int32 dataSize) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\FxSerialDeamon.cs:line 121
+   at BMS.FxSerialDeamon.Send(Int16 channelNo, String data) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\FxSerialDeamon.cs:line 106
+   at BMS.frmAndonDetailVer4.writePLC() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 267
+09:29:54:threadChangeBackgroundColor(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.threadChangeBackgroundColor() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 464

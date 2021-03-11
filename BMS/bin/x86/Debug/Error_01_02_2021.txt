@@ -1,0 +1,119 @@
+09:59:38:threadResetTaktTime(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.threadResetTaktTime() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 706
+21:11:23:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:11:54:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:12:25:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:12:56:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:13:28:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:13:59:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:14:30:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:15:01:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:17:40:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:18:11:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:18:42:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:19:13:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:19:44:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:20:15:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:20:46:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:21:17:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:21:48:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:22:19:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:22:50:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:23:21:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:23:52:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:24:23:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:24:54:bgwCD1_DoWork(): System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BMS.frmAndonDetailVer4.bgwCD1_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1109
+21:25:10:threadChangeBackgroundColor(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.threadChangeBackgroundColor() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 464
+21:25:11:writePLC(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at Microsoft.Win32.UnsafeNativeMethods.ClearCommError(SafeFileHandle hFile, Int32& lpErrors, COMSTAT& lpStat)
+   at System.IO.Ports.SerialStream.get_BytesToRead()
+   at System.IO.Ports.SerialPort.get_BytesToRead()
+   at InControls.SerialDevice.SerialPortSync.Read(Byte[] buffer, Int32 offset, Int32 count) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\PLC\SerialDevice\SerialPortSync.cs:line 210
+   at BMS.FxSerialDeamon.Send(Int16 channelNo, Byte[] dataBuff, Int32 dataSize, ICellDataType responseDataType) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\FxSerialDeamon.cs:line 148
+   at BMS.FxSerialDeamon.Send(Int16 channelNo, Byte[] dataBuff, Int32 dataSize) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\FxSerialDeamon.cs:line 121
+   at BMS.FxSerialDeamon.Send(Int16 channelNo, String data) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\FxSerialDeamon.cs:line 106
+   at BMS.frmAndonDetailVer4.writePLC() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 210
+21:25:11:bgwCD2_DoWork(): System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'frmAndonDetailVer4'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.bgwCD2_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1219
+21:26:02:threadChangeBackgroundColor(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.threadChangeBackgroundColor() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 464
+21:26:02:bgwCD2_DoWork(): System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'frmAndonDetailVer4'.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.bgwCD2_DoWork(Object sender, DoWorkEventArgs e) in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-30-01-2021\Forms\frmAndonDetailVer4.cs:line 1205
