@@ -25,12 +25,12 @@ namespace BMS
             const string appName = "AnDon";
             bool createdNew;
             mutex = new Mutex(true, appName, out createdNew);
-            if (!createdNew)
-            {
-                MessageBox.Show("App is already running! Exiting the application", "Warning", MessageBoxButtons.OK);
-                //app is already running! Exiting the application  
-                return;
-            }
+            //if (!createdNew)
+            //{
+            //    MessageBox.Show("App is already running! Exiting the application", "Warning", MessageBoxButtons.OK);
+            //    //app is already running! Exiting the application  
+            //    return;
+            //}
             Application.EnableVisualStyles();
 
             GridLocalizer.Active = new NVGridLocalizer();
