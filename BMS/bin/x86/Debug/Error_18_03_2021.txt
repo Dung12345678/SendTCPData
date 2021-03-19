@@ -1,0 +1,235 @@
+17:27:36:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:38:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:40:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:42:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:44:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:46:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:48:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:50:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:52:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:54:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:56:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:27:58:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:00:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:02:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:04:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:06:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:08:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:10:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:11:LoadAndon(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.LoadAndon() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 829
+17:28:11:threadChangeBackgroundColor(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.threadChangeBackgroundColor() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 464
+17:28:33:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:35:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:37:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:39:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:41:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:43:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:45:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:47:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:49:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:51:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:53:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:55:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:57:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:28:59:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:01:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:03:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:05:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:07:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:09:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:11:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:13:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:15:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:17:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:19:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:21:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:23:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:25:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:27:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:29:threadChangeBackgroundColor(): System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   at System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at BMS.frmAndonDetailVer4.threadChangeBackgroundColor() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 464
+17:29:40:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:42:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:44:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:46:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:48:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:50:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:52:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:54:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:56:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:29:58:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:00:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:02:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:04:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:06:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:08:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:10:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:12:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:14:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:16:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:18:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:20:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:22:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:24:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:26:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:28:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:30:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:32:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:34:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:37:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:39:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:41:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:43:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:45:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:47:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:49:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:51:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:53:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:55:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:57:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:30:59:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:01:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:03:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:05:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:07:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:09:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:11:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:13:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:15:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:17:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:19:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:22:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:24:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:26:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:28:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:30:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:33:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:35:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
+17:31:37:threadUpdatePlanCurrent(): System.DivideByZeroException: Attempted to divide by zero.
+   at BMS.frmAndonDetailVer4.threadUpdatePlanCurrent() in D:\project\Sumitomo\Line\Hyponic\Andon\AndonCode-Hyp-17-02-2021\Forms\frmAndonDetailVer4.cs:line 618
