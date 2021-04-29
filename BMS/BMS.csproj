@@ -178,10 +178,6 @@
     <Content Include="RtcIcon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaseBusiness\BaseBusiness.csproj">
-      <Project>{059AE159-539C-41C2-B62B-5C246731BD48}</Project>
-      <Name>BaseBusiness</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Forms\Forms.csproj">
       <Project>{B9622161-59BF-420D-A676-8CEFC7A14EB1}</Project>
       <Name>Forms</Name>

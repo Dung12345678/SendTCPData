@@ -1,8 +1,4 @@
-﻿using BMS.Business;
-using BMS.Model;
-using BMS.Utils;
-using InControls.PLC.FX;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,14 +17,7 @@ namespace BMS
 	{
 		private FxSerialDeamon _FxSerial;
 		string _cmd;
-		FxCommandResponse _res;
-
-		public StatusColorCDModel _StatusColorCDModel;
-		public AndonModel _AndonModel = new AndonModel();
-		//public NotUseCD _NotUseCD = new NotUseCD();
-		public StatusColorCDModel _NotUseCD;
-
-		public SendData _SendData;
+		//public SendData _SendData;
 		List<Socket> clientSockets = new List<Socket>();
 
 
@@ -42,14 +31,6 @@ namespace BMS
 		}
 		private void frmServer_Load(object sender, EventArgs e)
 		{
-			_NotUseCD = new StatusColorCDModel();
-
-			//Load trạng thái ban đầu trong file trạng thái dạng text
-			_StatusColorCDModel = new StatusColorCDModel();
-
-			//Load Andon từ file setting dạng text
-			_AndonModel = new AndonModel();
-
 			btnSend.Enabled = false;
 			buffer = new byte[BUFFER_SIZE];
 			OpenPort(1);
@@ -64,56 +45,11 @@ namespace BMS
 				_FxSerial.Start(port);
 			}
 		}
-		void setStatusColor(string cd, int status)
-		{
-			switch (cd)
-			{
-				case "CD1":
-					_StatusColorCDModel.CD1 = status;
-					break;
-				case "CD2":
-					_StatusColorCDModel.CD2 = status;
-					break;
-				case "CD3":
-					_StatusColorCDModel.CD3 = status;
-					break;
-				case "CD4":
-					_StatusColorCDModel.CD4 = status;
-					break;
-				case "CD5":
-					_StatusColorCDModel.CD5 = status;
-					break;
-				case "CD6":
-					_StatusColorCDModel.CD6 = status;
-					break;
-				case "CD7":
-					_StatusColorCDModel.CD7 = status;
-					break;
-				case "CD8":
-					_StatusColorCDModel.CD8 = status;
-					break;
-				case "CD9":
-					_StatusColorCDModel.CD9 = status;
-					break;
-				case "CD10":
-					_StatusColorCDModel.CD10 = status;
-					break;
-				case "CD11":
-					_StatusColorCDModel.CD11 = status;
-					break;
-				case "CD12":
-					_StatusColorCDModel.CD12 = status;
-					break;
-				case "CD13":
-					_StatusColorCDModel.CD13 = status;
-					break;
-				case "CD14":
-					_StatusColorCDModel.CD14 = status;
-					break;
-				default:
-					break;
-			}
-		}
+
+		/// <summary>
+		/// nhận data từ máy khác truyền tới
+		/// </summary>
+		/// <param name="AR"></param>
 		private void ReceiveCallback(IAsyncResult AR)
 		{
 			Socket current = (Socket)AR.AsyncState;
@@ -137,157 +73,6 @@ namespace BMS
 				string value = arr[1];
 				string type = arr[2];
 
-				//sự cố + //Hoàn thành
-				if (type == "1" || type == "2")
-				{
-					setStatusColor(step, TextUtils.ToInt(value));
-				}
-				//Cập nhật số lượng thực tế
-				if (type == "3")
-				{
-					_AndonModel.QtyActual += 1;
-					_AndonModel.QtyDelay = _AndonModel.QtyPlanCurrent - _AndonModel.QtyActual;
-					_SendData(3, 1, "");
-				}
-				//Khởi động ca làm việc
-				if (type == "4")
-				{
-					_AndonModel.IsStart = true;
-					_SendData(4, 1, "");
-				}
-				// Nhận tín hiệu không sử dụng
-
-				if (type == "10")
-				{
-					if (value == "10")
-					{
-						switch (step)
-						{
-							case "CD1":
-								_NotUseCD.CD1 = 10;
-								_SendData(10, 10, "CD1");
-								break;
-							case "CD2":
-								_NotUseCD.CD2 = 10;
-								_SendData(10, 10, "CD2");
-								break;
-							case "CD3":
-								_NotUseCD.CD3 = 10;
-								_SendData(10, 10, "CD3");
-								break;
-							case "CD4":
-								_NotUseCD.CD4 = 10;
-								_SendData(10, 10, "CD4");
-								break;
-							case "CD5":
-								_NotUseCD.CD5 = 10;
-								_SendData(10, 10, "CD5");
-								break;
-							case "CD6":
-								_NotUseCD.CD6 = 10;
-								_SendData(10, 10, "CD6");
-								break;
-							case "CD7":
-								_NotUseCD.CD7 = 10;
-								_SendData(10, 10, "CD7");
-								break;
-							case "CD8":
-								_NotUseCD.CD8 = 10;
-								_SendData(10, 10, "CD8");
-								break;
-							case "CD9":
-								_NotUseCD.CD9 = 10;
-								_SendData(10, 10, "CD9");
-								break;
-							case "CD10":
-								_NotUseCD.CD10 = 10;
-								_SendData(10, 10, "CD10");
-								break;
-							case "CD11":
-								_NotUseCD.CD11 = 10;
-								_SendData(10, 10, "CD11");
-								break;
-							case "CD12":
-								_NotUseCD.CD12 = 10;
-								_SendData(10, 10, "CD12");
-								break;
-							case "CD13":
-								_NotUseCD.CD13 = 10;
-								_SendData(10, 10, "CD13");
-								break;
-							case "CD14":
-								_NotUseCD.CD14 = 10;
-								_SendData(10, 10, "CD14");
-								break;
-							default:
-								break;
-						}
-					}
-					else if (value == "11")
-					{
-						switch (step)
-						{
-							case "CD1":
-								_NotUseCD.CD1 = 11;
-								_SendData(10, 11, "CD1");
-								break;
-							case "CD2":
-								_NotUseCD.CD2 = 11;
-								_SendData(10, 11, "CD2");
-								break;
-							case "CD3":
-								_NotUseCD.CD3 = 11;
-								_SendData(10, 11, "CD3");
-								break;
-							case "CD4":
-								_NotUseCD.CD4 = 11;
-								_SendData(10, 11, "CD4");
-								break;
-							case "CD5":
-								_NotUseCD.CD5 = 11;
-								_SendData(10, 11, "CD5");
-								break;
-							case "CD6":
-								_NotUseCD.CD6 = 11;
-								_SendData(10, 11, "CD6");
-								break;
-							case "CD7":
-								_NotUseCD.CD7 = 11;
-								_SendData(10, 11, "CD7");
-								break;
-							case "CD8":
-								_NotUseCD.CD8 = 11;
-								_SendData(10, 11, "CD8");
-								break;
-							case "CD9":
-								_NotUseCD.CD9 = 11;
-								_SendData(10, 11, "CD9");
-								break;
-							case "CD10":
-								_NotUseCD.CD10 = 11;
-								_SendData(10, 11, "CD10");
-								break;
-							case "CD11":
-								_NotUseCD.CD11 = 11;
-								_SendData(10, 11, "CD11");
-								break;
-							case "CD12":
-								_NotUseCD.CD12 = 11;
-								_SendData(10, 11, "CD12");
-								break;
-							case "CD13":
-								_NotUseCD.CD13 = 11;
-								_SendData(10, 11, "CD13");
-								break;
-							case "CD14":
-								_NotUseCD.CD14 = 11;
-								_SendData(10, 11, "CD14");
-								break;
-							default:
-								break;
-						}
-					}
-				}
 			}
 			catch (Exception)
 			{
@@ -338,6 +123,10 @@ namespace BMS
 				return 0;
 			}
 		}
+
+		/// <summary>
+		/// Đóng server
+		/// </summary>
 		private void CloseSocketServer()
 		{
 			serverSocket.Close();
@@ -370,7 +159,10 @@ namespace BMS
 				}
 			}
 		}
-
+		/// <summary>
+		/// Gửi lại tín hiệu cho các máy đã kết nối máy nào ngắt sẽ tự xóa 
+		/// </summary>
+		/// <param name="text">Cái gì muốn ghi</param>
 		public void SendAll(string text)
 		{
 			try

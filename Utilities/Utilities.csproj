@@ -156,13 +156,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaseBusiness\BaseBusiness.csproj">
-      <Project>{059AE159-539C-41C2-B62B-5C246731BD48}</Project>
-      <Name>BaseBusiness</Name>
-      <Private>False</Private>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\processingxxx.gif" />
   </ItemGroup>
   <ItemGroup>

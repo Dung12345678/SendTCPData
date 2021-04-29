@@ -190,47 +190,17 @@
     <Compile Include="Common\WeightingStepEnum.cs" />
     <Compile Include="Common\WorkRegionEnum.cs" />
     <Compile Include="Common\WorkRegionStateItem.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmLine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmAndonConfigVer4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAndonConfigVer4.Designer.cs">
-      <DependentUpon>frmAndonConfigVer4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmAndonDetailVer4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAndonDetailVer4.Designer.cs">
-      <DependentUpon>frmAndonDetailVer4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmConfig.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmConfig.Designer.cs">
-      <DependentUpon>frmConfig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRisk.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRisk.Designer.cs">
-      <DependentUpon>frmRisk.cs</DependentUpon>
+    <Compile Include="frmLine.Designer.cs">
+      <DependentUpon>frmLine.cs</DependentUpon>
     </Compile>
     <Compile Include="frmServer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmServer.Designer.cs">
       <DependentUpon>frmServer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmShowAndon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmShowAndon.Designer.cs">
-      <DependentUpon>frmShowAndon.cs</DependentUpon>
     </Compile>
     <Compile Include="FxSerialDeamon.cs" />
     <Compile Include="ModifyProgressBarColor.cs" />
@@ -267,26 +237,11 @@
     </Compile>
     <Compile Include="NotUseCD.cs" />
     <Compile Include="ThreadCD.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAndonConfigVer4.resx">
-      <DependentUpon>frmAndonConfigVer4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAndonDetailVer4.resx">
-      <DependentUpon>frmAndonDetailVer4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmConfig.resx">
-      <DependentUpon>frmConfig.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRisk.resx">
-      <DependentUpon>frmRisk.cs</DependentUpon>
+    <EmbeddedResource Include="frmLine.resx">
+      <DependentUpon>frmLine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmServer.resx">
       <DependentUpon>frmServer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmShowAndon.resx">
-      <DependentUpon>frmShowAndon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -309,10 +264,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaseBusiness\BaseBusiness.csproj">
-      <Project>{059AE159-539C-41C2-B62B-5C246731BD48}</Project>
-      <Name>BaseBusiness</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Utilities\Utilities.csproj">
       <Project>{696afdd3-6160-42fa-93ac-cbdbfe97233f}</Project>
       <Name>Utilities</Name>
